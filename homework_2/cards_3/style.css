@@ -1,0 +1,75 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.blue {
+    width: 700px;
+    height: 420px;
+    background: dodgerblue;
+    display: flex;
+
+}
+
+.left_container, .right_container {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.right_container {
+    align-items: flex-start;
+    margin-left: 20px;
+}
+
+.card {
+    width: 300px;
+    height: 100px;
+    background: whitesmoke;
+    border-radius: 5px;
+
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+    display: flex;
+}
+
+.fa-pen-to-square, .fa-crop, .fa-address-card, .fa-tire-rugged, .fa-star {
+    width: 80px;
+
+    display: flex;
+    /*  justify-content:center;*/
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 20px;
+
+    font-size: 40px;
+    color: gray;
+
+}
+
+.decoration {
+    width: 220px;
+}
+
+.title {
+    font-size: 18px;
+    font-family: Cambria, serif;
+    font-weight: 700;
+    color: #f7a22f;
+
+    margin-bottom: 8px;
+    margin-top: 10px;
+
+    /* text-transform: uppercase;*/
+
+}
+
+.text {
+    color: gray;
+    font-size: 14px;
+}

@@ -1,26 +1,43 @@
 body{
-    background: yellow;
-
+    background: gold;
 }
+.center-img {
+    display: block;
+    margin: 0 auto;
+}
+
+img{
+    width: 350px;
+    width: 300px;
+}
+
 h1 {
-    color: red;
+    color: black;
     background: blue;
     text-align: center;
 }
 
 h2 {
-    color: grey;
-    background: green;
+    color: black;
+    background: blue;
     text-align: center;
 }
-
 a {
     color: black;
-    background: green;
+    background:blue ;
+    text-decoration: none;
 }
-.center {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
 
+p {
+    color: black;
+    background: gold;
+    text-align: justify;
+}
+
+ul {
+    background: dodgerblue;
+}
+
+li {
+    background: lightskyblue;
 }
