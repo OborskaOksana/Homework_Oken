@@ -1,0 +1,67 @@
+body {
+    margin: 0;
+}
+
+.box {
+    width: auto;
+    height: 400px;
+
+    background: darkslategrey;
+
+   /* margin: 3px;*/
+}
+
+.logo {
+    width: auto;
+    height: 100px;
+    background: gray;
+}
+
+.item {
+    border: 1px solid;
+    background:darkslategrey;
+
+    width: 130px;
+    height: 60px;
+    border-radius: 10%;
+
+    margin-left: 110px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.fa-bars {
+    margin-left: 1300px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.fa-magnifying-glass {
+    margin-left: 1200px;
+    margin-top: 20px;
+    position: absolute;
+}
+
+.box:nth-child(2) {
+    width: auto;
+    height: 200px;
+
+    background: gray;
+
+    display: flex;
+    justify-content: center;
+}
+
+.inner_box {
+    width: 200px;
+    height: 200px;
+
+    background: darkslateblue;
+    border-radius: 10%;
+
+    position: relative;
+    top: -110px;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px;
+}
