@@ -64,8 +64,8 @@ while (i < 20) {
 ____________________________________________________________________________________________*/
 
 /*
-document.write('<ul>');
 let listOfItems = ['html', 'css', 'javascript', 'mysql', 'mongodb', 'react', 'angular', 'node.js'];
+document.write('<ul>');
 for (const i of listOfItems) {
     document.write('<li>${i}</li>')
 }
@@ -161,42 +161,37 @@ for (const product of products) {
 - користувачів які старші за 30 років
 ____________________________________________________________________________________________*/
 
-/*
-document.write('<ul>');
-let users = [
-    {name: 'Vasya', age: 31, status: false},
-    {name: 'Petya', age: 30, status: true},
-    {name: 'Kolya', age: 29, status: true},
-    {name: 'Olya', age: 28, status: false},
-    {name: 'Max', age: 30, status: true},
-    {name: 'Anya', age: 31, status: false},
-    {name: 'Oleg', age: 28, status: false},
-    {name: 'Andrey', age: 29, status: true},
-    {name: 'Masha', age: 30, status: true},
-    {name: 'Olya', age: 31, status: false},
-    {name: 'Max', age: 31, status: true}
-];
-
-document.write('<h1>1. Status-true</h1>')
-for (const user of users) {
-    if ((user.status) == true) {
-        document.write(`<div class="user-card"><li>
-        <h3 class="user-name"> ${user.name} <br> Age - ${user.age}  <br> Status - ${user.status}</h3></li></div>`)
-    }
-}
-document.write('<h1>2. Status-false</h1>')
-for (const user of users) {
-    if ((user.status) == false) {
-        document.write(`<div class="user-card"><li>
-        <h3 class="user-name"> ${user.name} <br> Age - ${user.age}  <br> Status - ${user.status}</h3></li></div>`)
-    }
-}
-document.write('<h1>3. Age>30</h1>')
-for (const user of users) {
-    if ((user.age) > 30) {
-        document.write(`<div class="user-card"><li>
-        <h3 class="user-name"> ${user.name} <br> Age - ${user.age}  <br> Status - ${user.status}</h3></li></div>`)
-    }
-}
-document.write('</ul>');
-*/
+// let users = [
+//     {name: 'Vasya', age: 31, status: false},
+//     {name: 'Petya', age: 30, status: true},
+//     {name: 'Kolya', age: 29, status: true},
+//     {name: 'Olya', age: 28, status: false},
+//     {name: 'Max', age: 30, status: true},
+//     {name: 'Anya', age: 31, status: false},
+//     {name: 'Oleg', age: 28, status: false},
+//     {name: 'Andrey', age: 29, status: true},
+//     {name: 'Masha', age: 30, status: true},
+//     {name: 'Olya', age: 31, status: false},
+//     {name: 'Max', age: 31, status: true}
+// ];
+//
+// document.write('<h1>1. Status-true</h1>')
+// for (const user of users) {
+//     if ((user.status) === true) {
+//         document.write(`<div class="user-card">
+//         <h3 class="user-name"> ${user.name} <br> Age - ${user.age}  <br> Status - ${user.status}</h3></div>`)
+//     }
+// }
+// document.write('<h1>2. Status-false</h1>')
+// for (const user of users) {
+//     if ((user.status) === false) {
+//         document.write(`<div class="user-card">
+//         <h3 class="user-name"> ${user.name} <br> Age - ${user.age}  <br> Status - ${user.status}</h3></div>`)
+//     }
+// }
+// document.write('<h1>3. Age>30</h1>')
+// for (const user of users) {
+//     if ((user.age) > 30) {
+//         document.write(`<div class="user-card">
+//         <h3 class="user-name"> ${user.name} <br> Age - ${user.age}  <br> Status - ${user.status}</h3></div>`)
+//     }}
