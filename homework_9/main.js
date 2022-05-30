@@ -19,7 +19,7 @@
 //     for (const Element of arg) {
 //         if (Element < min) {
 //             min = Element
-//         }
+//        }
 //         if (Element > max) {
 //             max = Element
 //         }

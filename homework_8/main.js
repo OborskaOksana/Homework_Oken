@@ -118,7 +118,7 @@
 //     let sum = 0;
 //     for (const i of array) {
 //         sum += i;
-//     }
+//    }
 //     return sum;
 // }
 // document.write(MinElement(mas));
