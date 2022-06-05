@@ -1,0 +1,15 @@
+.wrap{
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:space-between;
+}
+.inner {
+    width:19%;
+}
+
+.btn {
+    margin-top: 90%;
+    display: flex;
+    justify-content: center;
+}
