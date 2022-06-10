@@ -207,43 +207,43 @@
 
 // На странице post-details.html:
 // +7 Вывести всю, без исключения, информацию про объект post на кнопку/ссылку которого был совершен клик ранее.
-
-const users = [
-    {name: 'Vasya', age: 31, status: false},
-    {name: 'Petya', age: 30, status: true},
-    {name: 'Kolya', age: 29, status: true},
-    {name: 'Olya', age: 28, status: false},
-    {name: 'Max', age: 30, status: true},
-    {name: 'Anya', age: 31, status: false},
-    {name: 'Oleg', age: 28, status: false},
-    {name: 'Andrey', age: 29, status: true},
-    {name: 'Masha', age: 30, status: true},
-    {name: 'Olya', age: 31, status: false},
-    {name: 'Max', age: 31, status: true}
-];
-
-const favouritesKey = 'mini_project';
-localStorage.setItem (favouritesKey, JSON.stringify([]));
-const container = document.getElementById('container');
-
-users.forEach(user => {
-    const userDiv = document.createElement('div');
-
-    const content = document.createElement('div');
-    content.innerText= `Name: ${user.name}\nAge: ${user.age}\nStatus: ${user.status}`;
-
-    const btn = document.createElement('button');
-    btn.innerText = 'Show ol information';
-    btn.onclick = () => {
-        const mini_project = JSON.parse(localStorage.getItem(favouritesKey)) || [];
-        mini_project.push(user);
-        localStorage.setItem (favouritesKey, JSON.stringify(mini_project));
-        btn.disabled = true;
-    }
-    userDiv.append(content, btn);
-    container.append(userDiv);
-
-})
+//
+// const users = [
+//     {name: 'Vasya', age: 31, status: false},
+//     {name: 'Petya', age: 30, status: true},
+//     {name: 'Kolya', age: 29, status: true},
+//     {name: 'Olya', age: 28, status: false},
+//     {name: 'Max', age: 30, status: true},
+//     {name: 'Anya', age: 31, status: false},
+//     {name: 'Oleg', age: 28, status: false},
+//     {name: 'Andrey', age: 29, status: true},
+//     {name: 'Masha', age: 30, status: true},
+//     {name: 'Olya', age: 31, status: false},
+//     {name: 'Max', age: 31, status: true}
+// ];
+//
+// const favouritesKey = 'mini_project';
+// localStorage.setItem (favouritesKey, JSON.stringify([]));
+// const container = document.getElementById('container');
+//
+// users.forEach(user => {
+//     const userDiv = document.createElement('div');
+//
+//     const content = document.createElement('div');
+//     content.innerText= `Name: ${user.name}\nAge: ${user.age}\nStatus: ${user.status}`;
+//
+//     const btn = document.createElement('button');
+//     btn.innerText = 'Show ol information';
+//     btn.onclick = () => {
+//         const mini_project = JSON.parse(localStorage.getItem(favouritesKey)) || [];
+//         mini_project.push(user);
+//         localStorage.setItem (favouritesKey, JSON.stringify(mini_project));
+//         btn.disabled = true;
+//     }
+//     userDiv.append(content, btn);
+//     container.append(userDiv);
+//
+// })
 
 
 // +8 Ниже информации про пост, вывести все комментарии текущего поста
